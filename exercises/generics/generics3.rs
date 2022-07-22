@@ -7,7 +7,6 @@
 // Make the necessary code changes to support alphabetical report cards, thereby making 
 // the second test pass.
 
-// I AM NOT DONE
 pub struct ReportCard<T: std::fmt::Display> {
     pub grade: T,
     pub student_name: String,
